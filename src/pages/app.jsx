@@ -1,12 +1,14 @@
 import React from 'react';
 
-import Header from '../molecules/header';
+import Input from '../molecules/input';
 
 function App() {
+  const inputClear = () => {
+  }
 
   return (
     <div className="App">
-    <Header/>
+    <Input onClearClick={inputClear}/>
     </div>
   )
   }
