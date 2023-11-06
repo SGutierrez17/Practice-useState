@@ -52,3 +52,9 @@ header{
   display: flex;
   justify-content: center;
 }
+
+#field-input{
+  border-radius: 8px;
+  width: 200px;
+  margin-bottom: 10px;
+}

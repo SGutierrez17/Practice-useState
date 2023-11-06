@@ -1,14 +1,12 @@
 import React from 'react';
 
-import Input from '../molecules/input';
+import TextReverse from '../molecules/text.reverse';
 
 function App() {
-  const inputClear = () => {
-  }
 
   return (
     <div className="App">
-    <Input onClearClick={inputClear}/>
+    <TextReverse/>
     </div>
   )
   }
