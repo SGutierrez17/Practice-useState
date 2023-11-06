@@ -1,12 +1,12 @@
 import React from 'react';
 
-import TextReverse from '../molecules/text.reverse';
+import TextStyler from '../molecules/text-styler';
 
 function App() {
 
   return (
     <div className="App">
-    <TextReverse/>
+    <TextStyler/>
     </div>
   )
   }
